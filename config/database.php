@@ -1,14 +1,9 @@
 <?php
 
-if (session_status() === PHP_SESSION_NONE) {
-    session_start();
-}
-
 define('DB_HOST', 'localhost');
 define('DB_USER', 'root');
 define('DB_PASS', '');
 define('DB_NAME', 'workfolio_admin');
-define('BASE_URL', 'http://localhost/workfolio/admin/');
 
 try {
 
@@ -22,5 +17,6 @@ try {
     $pdo->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
 
 } catch (PDOException $e) {
-    die("Database connection failed. Please check config.php.<br>" . $e->getMessage());
+
+    die("Database connection failed.");
 }

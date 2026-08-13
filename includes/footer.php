@@ -50,7 +50,7 @@
                 &copy; Copyright <strong>Workfolio</strong> All Rights Reserved
             </p>
             <p class="footer-credit">
-                Designed by <span class="footer-span">SHURJEEL</span>
+                Designed by <span class="footer-span">Muhammad Shurjeel Javaid</span>
             </p>
         </div>
     </div>

@@ -16,11 +16,13 @@
     <!-- Hero Section -->
     <section class="hero-section text-center" id="hero">
         <div class="container">
-            <div class="profile-pic-wrapper mb-4 Glightbox">
-                <a href="assets/images/hero section/hero-img-2.jpeg">
-                    <img src="assets/images/hero section/hero-img-2.jpeg" alt="Muhammad Shurjeel"
-                        class="profile-pic">
-                </a>
+            <div class="profile-avatar">
+                <div class="profile-pic-wrapper mb-4">
+                    <a href="assets/images/hero section/hero-img-2.jpeg">
+                        <img src="assets/images/hero section/hero-img-2.jpeg" alt="Muhammad Shurjeel"
+                            class="profile-pic">
+                    </a>
+                </div>
             </div>
             <div class="status-badge mb-4">
                 <span class="status-dot"></span>
@@ -71,7 +73,7 @@
             </div>
             <div class="container mt-5">
                 <div class="row justify-content-center">
-                    <div class="col-lg-8 about-paragraph">
+                    <div class="col-lg-8 col-md-10 about-paragraph">
                         <p>I'm a multidisciplinary product designer and front-end developer based in Austin, Texas.
                             I
                             help
@@ -91,25 +93,25 @@
         </div>
         <div id="stats" class="container about-stats-container light-background">
             <div class="row  text-center">
-                <div class="col-lg-3 ">
+                <div class="col-lg-3 col-md-6 col-6">
                     <div class="about-stats">
                         <p><span class="counter" data-count="8">0</span>+</p>
                         <div class="about-stats-text ">Years Experience</div>
                     </div>
                 </div>
-                <div class="col-lg-3 ">
+                <div class="col-lg-3 col-md-6 col-6">
                     <div class="about-stats">
                         <p><span class="counter" data-count="120"> 0</span>+</p>
                         <div class="about-stats-text ">Projects Shipped</div>
                     </div>
                 </div>
-                <div class="col-lg-3 ">
+                <div class="col-lg-3 col-md-6 col-6">
                     <div class="about-stats">
                         <p><span class="counter" data-count="48"> 0</span></p>
                         <div class="about-stats-text ">Happy Clients</div>
                     </div>
                 </div>
-                <div class="col-lg-3 ">
+                <div class="col-lg-3 col-md-6 col-6">
                     <div class="about-stats mb-5">
                         <p><span class="counter" data-count="16"> 0</span></p>
                         <div class="about-stats-text"> Awards Won</div>
@@ -232,7 +234,7 @@
         <div class="container mt-5">
             <div class="row text-start">
                 <!-- Left -->
-                <div class="col-lg-5">
+                <div class="col-lg-5 col-md-12">
                     <h3 class="skills-left-title">A blend of design taste and engineering rigor.</h3>
                     <p class="skills-left-text">
                         I move comfortably between the canvas and the codebase, which means designs
@@ -248,7 +250,7 @@
                     </div>
                 </div>
                 <!-- Right -->
-                <div class="col-lg-6">
+                <div class="col-lg-6 col-md-12">
                     <div class="skill-item">
                         <div class="skill-item-header">
                             <span class="skill-label">Interface Design</span>
@@ -307,7 +309,7 @@
             </div>
             <div class="row text-start">
                 <!-- Left: Work timeline -->
-                <div class="col-lg-6">
+                <div class="col-lg-6 col-md-12">
                     <div class="timeline-column-header d-flex align-items-center mb-4">
                         <div class="timeline-icon"><i class="bi bi-briefcase"></i></div>&emsp;
                         <h3 class="timeline-column-title">Work</h3>
@@ -340,7 +342,7 @@
                     </div>
                 </div>
                 <!-- Right: Education & Awards timeline -->
-                <div class="col-lg-6">
+                <div class="col-lg-6 col-md-12">
                     <div class="timeline-column-header d-flex align-items-center mb-4">
                         <div class="timeline-icon"><i class="bi bi-mortarboard"></i></div>&emsp;
                         <h3 class="timeline-column-title">Education &amp; Awards</h3>
@@ -377,77 +379,7 @@
             <i class="bi bi-download"></i> Download Full Resume
         </a>
     </section>
-    <!-- Selected Work Section -->
-    <section class="work-section text-center text-white" id="portfolio">
-        <div class="container">
-            <div class="work-header">
-                <h2 class="work-title">Selected Work</h2>
-                <p class="work-subtext">A closer look at a few projects and the impact they made</p>
-            </div>
-            <!-- Work Item 1 -->
-            <div class="row align-items-center text-start work-item">
-                <!-- Left: project image -->
-                <div class="col-lg-6">
-                    <div class="work-image-wrapper">
-                        <img src="assets/images/portfolio-images/portfolio-1.webp" alt="Lumen Analytics"
-                            class="work-image">
-                    </div>
-                </div>
-                <!-- Right: project details -->
-                <div class="col-lg-6">
-                    <span class="work-meta">WEB APP · 2024</span>
-                    <h3 class="work-project-title">Lumen Analytics</h3>
-                    <p class="work-description">
-                        A calmer way to read product metrics. We rebuilt the information architecture
-                        and shipped a focused dashboard that cut time-to-insight in half.
-                    </p>
-                    <a href="#" class="work-link">
-                        View case study <i class="bi bi-arrow-right"></i>
-                    </a>
-                </div>
-            </div>
-            <!-- Work Item 2 -->
-            <div class="row align-items-center text-start work-item">
-                <div class="col-lg-6 order-lg-1">
-                    <span class="work-meta">MOBILE APP · 2023</span>
-                    <h3 class="work-project-title">Pace Fitness</h3>
-                    <p class="work-description">
-                        An iOS coaching app designed around real gestures and motivation. Daily
-                        active users doubled within three months of launch.
-                    </p>
-                    <a href="#" class="work-link">
-                        View case study <i class="bi bi-arrow-right"></i>
-                    </a>
-                </div>
-                <div class="col-lg-6 order-lg-2">
-                    <div class="work-image-wrapper">
-                        <img src="assets/images/portfolio-images/portfolio-2.webp" alt="Pace Fitness"
-                            class="work-image">
-                    </div>
-                </div>
-            </div>
-            <!-- Work Item 3 -->
-            <div class="row align-items-center text-start work-item">
-                <div class="col-lg-6">
-                    <div class="work-image-wrapper">
-                        <img src="assets/images/portfolio-images/portfolio-3.webp" alt="Marrow Coffee"
-                            class="work-image">
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <span class="work-meta">BRANDING · 2023</span>
-                    <h3 class="work-project-title">Marrow Coffee</h3>
-                    <p class="work-description">
-                        A full identity system for a specialty roaster — logo, packaging, and a warm
-                        visual language that scaled across every touchpoint.
-                    </p>
-                    <a href="#" class="work-link">
-                        View case study <i class="bi bi-arrow-right"></i>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
+    <?php include 'includes/portfolio_section.php'; ?>
     <!-- Testimonials Section -->
     <section class="testimonials-section text-center text-white">
         <div class="container">
@@ -460,7 +392,7 @@
                     <!-- Slide 1 -->
                     <div class="carousel-item active">
                         <div class="row justify-content-center">
-                            <div class="col-lg-6">
+                            <div class="col-lg-6 col-md-9 col-11">
                                 <div class="testimonial-card">
                                     <div class="testimonial-stars">
                                         <i class="bi bi-star-fill"></i>
@@ -488,7 +420,7 @@
                     <!-- Slide 2:-->
                     <div class="carousel-item">
                         <div class="row justify-content-center">
-                            <div class="col-lg-6">
+                            <div class="col-lg-6 col-md-9 col-11">
                                 <div class="testimonial-card">
                                     <div class="testimonial-stars">
                                         <i class="bi bi-star-fill"></i>
@@ -516,7 +448,7 @@
                     <!-- Slide 3 -->
                     <div class="carousel-item">
                         <div class="row justify-content-center">
-                            <div class="col-lg-6">
+                            <div class="col-lg-6 col-md-9 col-11">
                                 <div class="testimonial-card">
                                     <div class="testimonial-stars">
                                         <i class="bi bi-star-fill"></i>
@@ -566,7 +498,7 @@
             <p class="process-subtext">A simple, collaborative process that keeps projects on track</p>
             <div class="row text-start">
                 <!-- Step 1 -->
-                <div class="col-lg-3 ">
+                <div class="col-lg-3 col-md-6 col-6">
                     <div class="process-card">
                         <span class="process-number">01</span>
                         <div class="process-icon"><i class="bi bi-search"></i></div>
@@ -578,7 +510,7 @@
                     </div>
                 </div>
                 <!-- Step 2 -->
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-6 col-6">
                     <div class="process-card">
                         <span class="process-number">02</span>
                         <div class="process-icon"><i class="bi bi-pencil-square"></i></div>
@@ -590,7 +522,7 @@
                     </div>
                 </div>
                 <!-- Step 3 -->
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-6 col-6">
                     <div class="process-card">
                         <span class="process-number">03</span>
                         <div class="process-icon"><i class="bi bi-code-square"></i></div>
@@ -602,7 +534,7 @@
                     </div>
                 </div>
                 <!-- Step 4 -->
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-6 col-6">
                     <div class="process-card active">
                         <span class="process-number">04</span>
                         <div class="process-icon"><i class="bi bi-rocket-takeoff"></i></div>
@@ -635,22 +567,21 @@
         </div>
     </section>
     <!-- Newsletter Section -->
-    <!-- Newsletter Section -->
-<section class="newsletter-section">
-    <div class="container">
-        <div class="newsletter-box text-center">
-            <h2 class="newsletter-title">Stay in the Loop</h2>
-            <p class="newsletter-text">
-                Subscribe for design insights, development tips, and portfolio updates.
-            </p>
+    <section class="newsletter-section">
+        <div class="container">
+            <div class="newsletter-box text-center">
+                <h2 class="newsletter-title">Stay in the Loop</h2>
+                <p class="newsletter-text">
+                    Subscribe for design insights, development tips, and portfolio updates.
+                </p>
 
-            <form class="newsletter-form">
-                <input type="email" class="newsletter-input" placeholder="Your email">
-                <button class="newsletter-btn">Subscribe</button>
-            </form>
+                <form class="newsletter-form">
+                    <input type="email" class="newsletter-input" placeholder="Your email">
+                    <button class="newsletter-btn">Subscribe</button>
+                </form>
+            </div>
         </div>
-    </div>
-</section>
+    </section>
     <?php include 'includes/footer.php' ?>
 </body>
 

@@ -9,7 +9,7 @@ $adminId = null;
 
 if ($token === '') {
     $errors[] = 'Missing or invalid reset link.';
-} else {
+} else { 
     $stmt = $pdo->prepare(
         'SELECT id, admin_id, expires_at, used FROM password_resets WHERE token = ? LIMIT 1'
     );
